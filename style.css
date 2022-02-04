@@ -15,6 +15,10 @@ header{
 header > h1{
     margin-bottom: 60px;
 }
+header > p{
+    margin: auto;
+    padding-bottom: 50px;
+}
 nav{
     background-color: green;
     margin: -16px -8px 5px -8px;
