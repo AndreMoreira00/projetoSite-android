@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(ex10/fontes/idroid.otf) format('opentype');
+}
+body{
+    font-family: 'idroid';
+    background-color: rgb(110, 221, 110);
+}
+header{
+    background-color: green;
+    text-align: center;
+    margin: -21px -8px 5px -8px;
+    height: 150px;
+}
+header > h1{
+    margin-bottom: 60px;
+}
+nav{
+    background-color: green;
+    margin: -16px -8px 5px -8px;
+}
+nav > a{
+    margin-right: 5px;
+    background-color: green;
+    border-style: none;
+    border-color: green;
+}
+a:hover{
+    background-color: rgb(91, 177, 91);
+}
+
+main{
+    background-color: white;
+    height: auto;
+    width: 820px;
+    margin: -20px auto;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+}
+section > h1{
+    color: green;
+    margin: 20px 0px 15px 10px;
+    font-weight: 900;
+    text-align: left;
+}
+section > p{
+    margin: auto 10px;
+    text-align: justify;
+    text-align: left;
+}
+section > h2{
+    background-color: rgba(79, 182, 79, 0.595);
+    margin: 15px 0px 15px 10px;
+    text-align: left;
+}
+picture > source{
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+picture > img{
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin: auto 10px;
+}
+#video{
+    background-color: green;
+    margin-bottom: 30px;
+    margin: 0px;
+    padding: 20px;
+}
+#vi{
+    height: 347px;
+    width: 754px;
+    margin: 15px auto;
+}
+#box{
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgba(146, 228, 201, 0.493);
+    padding-bottom: 10px;
+}
+ol{
+    list-style-position: inside;
+    columns: 2;
+}
+li{
+    text-align: justify;
+    display: block;
+}
+footer{
+    background-color: green;
+    margin: 30px -8px auto -8px;
+    text-align: center;
+}
+h3{
+    height: 30px;
+    width: auto;
+    background-color: green;
+    margin: 5px 0px 5px 0px;
+    border-radius: 20px 20px 0px 0px;
+}
